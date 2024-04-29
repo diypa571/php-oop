@@ -31,7 +31,10 @@ function __Construct()
 }
 
 
-//    
+ 
+  //Ha filter för att filtrera data innan det lagras i database
+  // Rekommenderar preg_match() funktionen
+
  function Add() {
 $rand1 = $_POST['rand1'];
 $rand2 = $_POST['rand2'];
