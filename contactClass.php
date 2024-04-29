@@ -1,4 +1,12 @@
 <?php
+/*
+Följande php kod är att skriven med php OOP
+OBS, tänk på, ha ej publika funktioner
+Diyar Parwana
+diypa571@gmail.com
+*/
+
+<?php
 Class Contact
 {
   private $host ='127.0.0.1';  // Referens till host
